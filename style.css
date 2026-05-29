@@ -1,0 +1,160 @@
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {
+ font-family: Arial, sans-serif;
+ background: linear-gradient(to right, #dfffd8, #f7fff2);
+ color: #222;
+ line-height: 1.6;
+ }
+
+ header {
+ background: linear-gradient(135deg, #0d47a1, #1565c0);
+ color: white;
+ text-align: center;
+ padding: 40px 20px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+ }
+
+ header h1 {
+ font-size: 50px;
+ margin-bottom: 10px;
+ letter-spacing: 2px;
+ }
+
+ header p {
+ font-size: 22px;
+ }
+
+ .container {
+ width: 90%;
+ max-width: 1200px;
+ margin: auto;
+ padding: 40px 0;
+ }
+
+ .services {
+ background: white;
+ padding: 30px;
+ border-radius: 20px;
+ margin-bottom: 40px;
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ .services h2 {
+ color: #0d47a1;
+ margin-bottom: 20px;
+ text-align: center;
+ font-size: 35px;
+ }
+
+ .services-links {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 20px;
+ }
+
+ .services-links a {
+ display: block;
+ background: linear-gradient(135deg, #ffb300, #ff8f00);
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ padding: 20px;
+ border-radius: 15px;
+ font-size: 22px;
+ font-weight: bold;
+ transition: 0.3s;
+ }
+
+ .services-links a:hover {
+ transform: translateY(-5px);
+ background: linear-gradient(135deg, #ff8f00, #ef6c00);
+ }
+
+ .schedule {
+ background: white;
+ padding: 30px;
+ border-radius: 20px;
+ margin-bottom: 40px;
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+ overflow-x: auto;
+ }
+
+ .schedule h2 {
+ text-align: center;
+ color: #0d47a1;
+ margin-bottom: 20px;
+ font-size: 35px;
+ }
+
+ table {
+ width: 100%;
+ border-collapse: collapse;
+ overflow: hidden;
+ border-radius: 15px;
+ }
+
+ th {
+ background: #1565c0;
+ color: white;
+ padding: 18px;
+ font-size: 22px;
+ }
+
+ td {
+ padding: 18px;
+ font-size: 20px;
+ text-align: center;
+ border-bottom: 1px solid #ddd;
+ }
+
+ tr:nth-child(even) {
+ background-color: #f4f9ff;
+ }
+
+ tr:hover {
+ background-color: #e3f2fd;
+ }
+
+ .about {
+ background: white;
+ padding: 35px;
+ border-radius: 20px;
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ .about h2 {
+ text-align: center;
+ color: #0d47a1;
+ margin-bottom: 25px;
+ font-size: 38px;
+ }
+
+ .about p {
+ font-size: 22px;
+ margin-bottom: 15px;
+ }
+
+ .benefits {
+ margin-top: 20px;
+ padding-left: 20px;
+ }
+
+ .benefits li {
+ font-size: 21px;
+ margin-bottom: 10px;
+ }
+
+ footer {
+ background: #0d47a1;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ margin-top: 40px;
+ font-size: 18px;
+ } 
