@@ -5,7 +5,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Спортен клуб Titan</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
  </head>
 
 <body>
@@ -125,21 +125,52 @@
  </p>
 
  <ul class="benefits">
- <li>Развитие на физическата сила и издръжливост</li>
+ <li id="benefit-1"> Развитие на физическата сила и издръжливост</li>
 
- <li>Изграждане на дисциплина и екипен дух</li>
+ <li id="benefit-2">Изграждане на дисциплина и екипен дух</li>
 
- <li>Участие в ученически турнири</li>
+ <li id="benefit-3">Участие в ученически турнири</li>
 
- <li>Нови приятелства и общност</li>
+ <li id="benefit-4">Нови приятелства и общност</li>
 
- <li>Подобряване на академичните резултати</li>
+ <li id="benefit-5">Подобряване на академичните резултати</li>
 
- <li>Възможност за спортни стипендии</li>
- </ul>
+ <li id="benefit-6">Възможност за спортни стипендии</li>
+ </ul> 
 
- </section>
+ </section><br>
+<section class="form-section">
+  <h2>Регистрационен формуляр</h2>
 
+  <form>
+    <label for="fname">Име:</label>
+    <input type="text" id="fname" name="fname">
+
+    <label for="lname">Фамилия:</label>
+    <input type="text" id="lname" name="lname">
+
+    <label for="email">Имейл:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="phone">Телефон:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="age">Възраст:</label>
+    <input type="number" id="age" name="age">
+
+    <label for="level">Ниво на физическа подготовка:</label>
+    <select id="level" name="level">
+      <option>Начинаещ</option>
+      <option>Средно ниво</option>
+      <option>Напреднал</option>
+    </select>
+
+    <label for="comment">Коментари:</label>
+    <textarea id="comment" rows="5">Аз съм...</textarea>
+
+    <button type="submit">Регистрирай се</button>
+  </form>
+</section>
  </div>
 
  <footer>
